@@ -132,6 +132,11 @@ public class Port{
         }
     }
 
+    protected void statusGate(){
+        System.out.println("Gate 1 = " + gataEn + " " + "Gate 2 = " + getaTo);
+        System.out.println("false - cвободно, true - занято");
+    }
+
     protected void addCont(){
         for(int i = 0; i < 50; i++){
             containers.add(new Container(500, "Car", i));

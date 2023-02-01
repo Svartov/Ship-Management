@@ -57,6 +57,6 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "Ship[" + "shipNumber: " + shipNumber + ", shipInPort: " + shipInPort + ", containers: " + containers + ']';
+        return "[" + "shipNumber: " + shipNumber + ", gateNumber: " + getNumberGate() + ", shipInPort: " + shipInPort + ", containers: " + containers + ']';
     }
 }

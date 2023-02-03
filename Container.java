@@ -5,33 +5,33 @@ public class Container{
     private String typeContainer;
     private int numberContainer;
 
-    public Container(int weight, String typeContainer, int numberContainer) {
+    protected Container(int weight, String typeContainer, int numberContainer) {
         this.weight = weight;
         this.typeContainer = typeContainer;
         this.numberContainer = numberContainer;
     }
 
-    public int getWeight() {
+    protected int getWeight() {
         return weight;
     }
 
-    public String getTypeContainer() {
+    protected String getTypeContainer() {
         return typeContainer;
     }
 
-    public int getNumberContainer() {
+    protected int getNumberContainer() {
         return numberContainer;
     }
 
-    public void setWeight(int weight) {
+    protected void setWeight(int weight) {
         this.weight = weight;
     }
 
-    public void setTypeContainer(String typeContainer) {
+    protected void setTypeContainer(String typeContainer) {
         this.typeContainer = typeContainer;
     }
 
-    public void setNumberContainer(int numberContainer) {
+    protected void setNumberContainer(int numberContainer) {
         this.numberContainer = numberContainer;
     }
 }

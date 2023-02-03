@@ -13,45 +13,45 @@ public class Ship {
         this.shipNumber = shipNumber;
     }
 
-    public int getShipNumber() {
+    protected int getShipNumber() {
         return shipNumber;
     }
 
-    public boolean getShipInPort() {
+    protected boolean getShipInPort() {
         return shipInPort;
     }
 
-    public List<Container> getContainers() {
+    protected List<Container> getContainers() {
         return containers;
     }
 
-    public void setShipNumber(int shipNumber) {
+    protected void setShipNumber(int shipNumber) {
         this.shipNumber = shipNumber;
     }
 
-    public void setContInBot(Container container){
+    protected void setContInBot(Container container){
         containers.add(container);
     }
 
-    public Container getContInBot(){
+    protected Container getContInBot(){
         containers.get(0);
         containers.remove(0);
         return null;
     }
 
-    public void setShipInPort(boolean shipInPort) {
+    protected void setShipInPort(boolean shipInPort) {
         this.shipInPort = shipInPort;
     }
 
-    public void setNumberGate(int numberGate) {
+    protected void setNumberGate(int numberGate) {
         this.numberGate = numberGate;
     }
 
-    public boolean isShipInPort() {
+    protected boolean isShipInPort() {
         return shipInPort;
     }
 
-    public int getNumberGate() {
+    protected int getNumberGate() {
         return numberGate;
     }
 

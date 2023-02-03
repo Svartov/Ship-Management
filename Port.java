@@ -9,30 +9,27 @@ public class Port{
     Scanner in = new Scanner(System.in);
     private boolean gataEn = false;
     private boolean getaTo = false;
-    final int numberGataEn = 1;
-    final int numberGataTo = 2;
-    List<Container> containers = new ArrayList<>();
+    private List<Container> containers = new ArrayList<>();
 
     public Port() {
     }
 
-    public boolean getGateEn() {
+    protected boolean getGateEn() {
         return gataEn;
     }
 
-    public boolean getGetaTo() {
+    protected boolean getGetaTo() {
         return getaTo;
     }
 
-    public void setGateEn(boolean gateEn) {
+    protected void setGateEn(boolean gateEn) {
         this.gataEn = gateEn;
     }
 
-    public void setGetaTo(boolean geteTo) {
+    protected void setGetaTo(boolean geteTo) {
         this.getaTo = geteTo;
     }
-
-    public List<Container> getContainers() {
+    protected List<Container> getContainers() {
         return containers;
     }
 
